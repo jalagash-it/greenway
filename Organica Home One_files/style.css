@@ -910,7 +910,8 @@ a#scrollUp:hover {
     color: #fff;
 }
 
-.nivo-directionNav a {
+
+/* .nivo-directionNav a {
     background: #98ab3f none repeat scroll 0 0;
     border-radius: 30px;
     color: #fff;
@@ -923,7 +924,7 @@ a#scrollUp:hover {
     opacity: 0;
     transition: all .5s;
     visibility: hidden;
-}
+} */
 
 .slider-area:hover .nivo-directionNav a {
     bottom: 50%;
@@ -932,9 +933,10 @@ a#scrollUp:hover {
     transform: translateY(50%);
 }
 
-.nivo-directionNav a.nivo-prevNav {
+
+/* .nivo-directionNav a.nivo-prevNav {
     left: 30px;
-}
+} */
 
 .nivo-directionNav a.nivo-nextNav {
     right: 30px;
@@ -1419,14 +1421,15 @@ a#scrollUp:hover {
 .test-menu ul li.active a img {
     border: 11px solid #98ab3f;
     border-radius: 100%;
+    width: 100px;
+    height: auto;
 }
 
 .test-img a::before,
 .test-menu ul li.active a:before {
-    border: 8px solid #fff;
     border-radius: 100%;
     content: "";
-    height: 86%;
+    height: 30%;
     left: 11px;
     position: absolute;
     top: 11px;
@@ -1450,7 +1453,7 @@ a#scrollUp:hover {
 
 .test-content p,
 .test-info span {
-    color: #fff;
+    color: black;
     font-size: 16px;
 }
 
@@ -2174,7 +2177,7 @@ a#scrollUp:hover {
 }
 
 .featureproduct-slider-active2 .col-md-12 {
-    width: 100%;
+    width: 50%;
 }
 
 

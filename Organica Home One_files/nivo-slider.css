@@ -1,9 +1,9 @@
 .nivoSlider {
     position: relative;
-    width: 50%;
+    width: 200px;
     height: auto;
     overflow: hidden;
-    margin-left: 600px;
+    margin-left: 100px;
 }
 
 .nivoSlider img {

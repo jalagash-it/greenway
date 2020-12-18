@@ -578,6 +578,12 @@ pre code {
     margin-left: auto
 }
 
+@media (max-width:475px) {
+    .test-img {
+        width: 80%;
+    }
+}
+
 @media (min-width:576px) {
     .container {
         max-width: 540px
@@ -10496,8 +10502,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
