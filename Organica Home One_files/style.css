@@ -910,8 +910,7 @@ a#scrollUp:hover {
     color: #fff;
 }
 
-
-/* .nivo-directionNav a {
+.nivo-directionNav a {
     background: #98ab3f none repeat scroll 0 0;
     border-radius: 30px;
     color: #fff;
@@ -924,7 +923,7 @@ a#scrollUp:hover {
     opacity: 0;
     transition: all .5s;
     visibility: hidden;
-} */
+}
 
 .slider-area:hover .nivo-directionNav a {
     bottom: 50%;
@@ -933,10 +932,9 @@ a#scrollUp:hover {
     transform: translateY(50%);
 }
 
-
-/* .nivo-directionNav a.nivo-prevNav {
+.nivo-directionNav a.nivo-prevNav {
     left: 30px;
-} */
+}
 
 .nivo-directionNav a.nivo-nextNav {
     right: 30px;
