@@ -528,18 +528,20 @@ ul {
 }
 
 a#scrollUp {
-    background: #666;
+    /* background: rgb(8, 8, 8); */
     bottom: 35px;
     height: 40px;
     line-height: 40px;
     right: 12px;
     text-align: center;
     width: 40px;
-    color: #fff;
+    /* color: rgb(12, 11, 11); */
+    opacity: 100%;
 }
 
 a#scrollUp:hover {
-    background: #98AB3F
+    /* background: #0a0a0a; */
+    opacity: 100%;
 }
 
 
